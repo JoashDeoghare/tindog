@@ -1,0 +1,168 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADING SECTION */
+
+.title-head{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.section-heading{
+  font-size: 3rem;
+  margin: 20px;
+}
+
+/* CONTAINER */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.phonepic{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* FEATURES SECTION */
+
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.featpara{
+  color: #8f8f8f;
+  width: 80%;
+  line-height: 2rem;
+  font-weight: normal;
+  margin: 5% auto 10%;
+}
+
+
+
+/* TESTIMONIALS SECTION */
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  padding: 2% 0;
+  line-height: 3rem;
+
+}
+
+
+/* PRESS SECTION */
+
+#press{
+  padding-bottom: 5%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* PRICING SECTION */
+
+#pricing{
+  font-family: 'Montserrat', sans-serif;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+.center{
+  width: 100%;
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.center:hover{
+  color: #ff4c68;
+}
+em{
+  padding: 20px;
+}
+
+/* CTA SECTION */
+
+
+
+.foot-txt{
+  font-size: 3rem;
+  margin: 3% auto;
+  width: 60%;
+}
+
+/* FOOTER SECTION */
+
+.footer-icons{
+  padding: 20px;
+  color: black;
+}
+
+
+@media (max-width: 1028px) {
+
+#title{
+  text-align: center;
+}
+
+.phonepic{
+  position: static;
+  transform: rotate(0);
+  margin: 20px auto;
+}
